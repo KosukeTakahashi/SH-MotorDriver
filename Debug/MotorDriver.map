@@ -1,0 +1,58 @@
+Optimizing Linkage Editor (V.10.02.01.000)        12-Nov-2019 23:55:21
+
+*** Options ***
+
+-subcommand=C:\Users\Kosuke\Develop\SH\MotorDriver\MotorDriver\Debug\MotorDriver.hlk
+-noprelink
+-rom=D=R
+-nomessage
+-list="C:\Users\Kosuke\Develop\SH\MotorDriver\MotorDriver\Debug\MotorDriver.map"
+-nooptimize
+-start=DVECTTBL,DINTTBL,PIntPRG/00,PResetPRG/0800,P,C,C$BSEC,C$DSEC,D/01000,B,R/0FFFFA000,S/0FFFFBC00
+-nologo
+-input="C:\Users\Kosuke\Develop\SH\MotorDriver\MotorDriver\Debug\cpwm.obj"
+-input="C:\Users\Kosuke\Develop\SH\MotorDriver\MotorDriver\Debug\da_handler.obj"
+-input="C:\Users\Kosuke\Develop\SH\MotorDriver\MotorDriver\Debug\dbsct.obj"
+-input="C:\Users\Kosuke\Develop\SH\MotorDriver\MotorDriver\Debug\hwsetup.obj"
+-input="C:\Users\Kosuke\Develop\SH\MotorDriver\MotorDriver\Debug\interrupt_utils.obj"
+-input="C:\Users\Kosuke\Develop\SH\MotorDriver\MotorDriver\Debug\intprg.obj"
+-input="C:\Users\Kosuke\Develop\SH\MotorDriver\MotorDriver\Debug\MotorDriver.obj"
+-input="C:\Users\Kosuke\Develop\SH\MotorDriver\MotorDriver\Debug\resetprg.obj"
+-input="C:\Users\Kosuke\Develop\SH\MotorDriver\MotorDriver\Debug\sbrk.obj"
+-input="C:\Users\Kosuke\Develop\SH\MotorDriver\MotorDriver\Debug\sensor_utils.obj"
+-input="C:\Users\Kosuke\Develop\SH\MotorDriver\MotorDriver\Debug\vector_control.obj"
+-input="C:\Users\Kosuke\Develop\SH\MotorDriver\MotorDriver\Debug\vecttbl.obj"
+-library="C:\Users\Kosuke\Develop\SH\MotorDriver\MotorDriver\Debug\MotorDriver.lib"
+-output="C:\Users\Kosuke\Develop\SH\MotorDriver\MotorDriver\Debug\MotorDriver.abs"
+-end
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+DVECTTBL
+                                  00000000  0000000f        10   4
+DINTTBL
+                                  00000010  000003ff       3f0   4
+PIntPRG
+                                  00000400  0000061b       21c   4
+PResetPRG
+                                  00000800  0000082b        2c   4
+P
+                                  00001000  000031cd      21ce   4
+C
+                                  000031d0  00003257        88   4
+C$BSEC
+                                  00003258  0000325f         8   4
+C$DSEC
+                                  00003260  0000326b         c   4
+D
+                                  0000326c  0000327b        10   4
+B
+                                  ffffa000  ffffaf8b       f8c   4
+R
+                                  ffffaf8c  ffffaf9b        10   4
+S
+                                  ffffbc00  ffffbfff       400   4

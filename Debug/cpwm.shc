@@ -1,0 +1,14 @@
+-cpu=sh2
+-object="C:\Users\Kosuke\Develop\SH\MotorDriver\MotorDriver\Debug\cpwm.obj"
+-debug
+-gbr=auto
+-chgincpath
+-errorpath
+"C:\Users\Kosuke\Develop\SH\MotorDriver\MotorDriver\cpwm.c"
+-global_volatile=0
+-opt_range=all
+-infinite_loop=0
+-del_vacant_loop=0
+-struct_alloc=1
+-lang=c
+-nologo

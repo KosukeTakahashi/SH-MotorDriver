@@ -1,0 +1,4 @@
+-cpu=sh2
+-output="C:\Users\Kosuke\Develop\SH\MotorDriver\MotorDriver\Debug\MotorDriver.lib"
+-gbr=auto
+-head=runtime,new,mathf,stdio,stdlib,string
